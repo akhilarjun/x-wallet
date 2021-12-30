@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet</title>
+    <link rel="stylesheet" href="./web/css/wallet.css">
+</head>
+<body>
+    <div class="container">
+        <div class="banner">
+            <h1><a r-href="home"><img src="./web/imgs/wallet.png" alt="Wallet"> My Wallet</a></h1>
+        </div>
+        <div class="card main-drill-down" router-outlet></div>
+        <h2>Expense by Categories</h2>
+        <div class="flex" id="categoryContainer">
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/akhilarjun/RouteNow@latest/js/route-now.js"></script>
+    <script src="./web/js/templates.js"></script>
+    <script src="./web/js/wallet.js"></script>
+    <script src="./web/js/wallet-route.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+[{
+    "month": "September",
+    "income": 130000,
+    "expense": {
+        "studies": 10000,
+        "savings": 6000,
+        "bills": 37461,
+        "food": 6882,
+        "grocery": 1633,
+        "shopping": 5483,
+        "travels": 13425,
+        "personal": 68162,
+        "scooty": 9500
+    }
+},{
+    "month": "October",
+    "income": 130000,
+    "expense": {
+        "studies": 10000,
+        "savings": 15000,
+        "bills": 48435,
+        "food": 3692,
+        "grocery": 834,
+        "shopping": 2375,
+        "travels": 27330,
+        "personal": 9549,
+        "scooty": 9500
+    }
+},{
+    "month": "November",
+    "income": 130000,
+    "expense": {
+        "studies": 10000,
+        "savings": 15000,
+        "bills": 59571,
+        "food": 3865,
+        "grocery": 1323,
+        "shopping": 2638,
+        "travels": 18372,
+        "personal": 24417,
+        "scooty": 9500
+    }
+},{
+    "month": "December",
+    "income": 130000,
+    "expense": {
+        "studies": 10000,
+        "savings": 15000,
+        "bills": 60315,
+        "food": 4962,
+        "grocery": 5755,
+        "shopping": 7898,
+        "travels": 609,
+        "personal": 11601,
+        "scooty": 9500
+    }
+}]

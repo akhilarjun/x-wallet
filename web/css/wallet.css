@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #f1f0f6;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  padding: 0 5px;
+  color: #222222;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 50px 20px;
+  margin: 0 auto;
+}
+
+.container .banner h1 {
+  color: #2e79bd;
+  font-size: 45px;
+  font-weight: 900;
+}
+
+.container .banner h1 img {
+  width: 50px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex .cell {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 100%;
+          flex: 1 100%;
+}
+
+.flex .cell.none {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+}
+
+.card {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin: 5px;
+  color: #555555;
+  -webkit-box-shadow: 1px 3px 10px 0px #e6e6e6;
+          box-shadow: 1px 3px 10px 0px #e6e6e6;
+}
+
+.card.with-img {
+  cursor: pointer;
+}
+
+.card.with-img .main {
+  padding: 30px 30px 10px;
+}
+
+.card.with-img .main img {
+  width: 100%;
+}
+
+.card.with-img .footer {
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.card.with-img .footer .helper {
+  font-size: 12px;
+  color: #999999;
+  font-weight: 500;
+}
+
+.card .content {
+  padding: 20px;
+}
+
+.card .content h3 {
+  text-align: center;
+}
+
+.main-drill-down {
+  margin-bottom: 20px;
+}
+
+.chart-home-container .cell:first-child {
+  width: 800px;
+  height: 400px;
+}
+
+.chart-home-container .cell:last-child {
+  width: 250px;
+  height: 200px;
+  padding: 85px 0 0 40px;
+}
+/*# sourceMappingURL=wallet.css.map */
