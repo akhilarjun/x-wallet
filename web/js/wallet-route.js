@@ -10,16 +10,16 @@ let toPropercase = (str) => {
 };
 
 $Router.config([
-    { path: 'home', templateUrl: '/web/partial/home.html' },
-    { path: 'studies', templateUrl: '/web/partial/details.html' },
-    { path: 'savings', templateUrl: '/web/partial/details.html' },
-    { path: 'bills', templateUrl: '/web/partial/details.html' },
-    { path: 'food', templateUrl: '/web/partial/details.html' },
-    { path: 'grocery', templateUrl: '/web/partial/details.html' },
-    { path: 'shopping', templateUrl: '/web/partial/details.html' },
-    { path: 'travels', templateUrl: '/web/partial/details.html' },
-    { path: 'personal', templateUrl: '/web/partial/details.html' },
-    { path: 'scooty', templateUrl: '/web/partial/details.html' },
+    { path: 'home', templateUrl: 'web/partial/home.html' },
+    { path: 'studies', templateUrl: 'web/partial/details.html' },
+    { path: 'savings', templateUrl: 'web/partial/details.html' },
+    { path: 'bills', templateUrl: 'web/partial/details.html' },
+    { path: 'food', templateUrl: 'web/partial/details.html' },
+    { path: 'grocery', templateUrl: 'web/partial/details.html' },
+    { path: 'shopping', templateUrl: 'web/partial/details.html' },
+    { path: 'travels', templateUrl: 'web/partial/details.html' },
+    { path: 'personal', templateUrl: 'web/partial/details.html' },
+    { path: 'scooty', templateUrl: 'web/partial/details.html' },
 ], {
     activateLinks: false,
     useHashStrategy: true,
