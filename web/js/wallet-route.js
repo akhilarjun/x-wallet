@@ -7,7 +7,7 @@ let toPropercase = (str) => {
             return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
         }
     );
-}
+};
 
 $Router.config([
     { path: 'home', templateUrl: '/web/partial/home.html' },

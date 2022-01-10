@@ -54,4 +54,18 @@
         "personal": 11601,
         "scooty": 9500
     }
+},{
+    "month": "January",
+    "income": 130000,
+    "expense": {
+        "studies": 10000,
+        "savings": 7500,
+        "bills": 13870,
+        "food": 970,
+        "grocery": 1060,
+        "shopping": 3803,
+        "travels": 10825,
+        "personal": 26284,
+        "scooty": 9500
+    }
 }]

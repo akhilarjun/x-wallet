@@ -10,7 +10,7 @@ let ignoreKeys = ['studies', 'scooty'];
 let activeKey = '';
 
 getExpenses = () => {
-    return fetch('/api/expenses');
+    return fetch('/web/resources/expense.json');
 }
 
 convertToIndianFormat = (num) => {
